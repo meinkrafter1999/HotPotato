@@ -1,0 +1,15 @@
+name: Hot Potato
+main: me.rrbk99.hotpotato.HotPotato
+author: Robin Roeder
+version: 1.0
+
+commands:
+  lobby:
+    description: Teleports to Lobby
+    usage: /<command>
+  hub:
+    description: Teleports to Lobby
+    usage: /<command>
+  leave:
+    description: Teleports to Lobby
+    usage: /<command>
