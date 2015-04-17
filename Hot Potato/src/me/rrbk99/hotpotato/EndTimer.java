@@ -2,9 +2,7 @@
  * Copyright (c) 2015 Robin Roeder.
  * All rights reserved.
  *******************************************************************************/
-package me.rrbk99.hotpotato.timer;
-
-import me.rrbk99.hotpotato.HotPotato;
+package me.rrbk99.hotpotato;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -17,7 +15,7 @@ public class EndTimer {
 
 		i = HotPotato.endTimer;
 
-		Player winner = HotPotato.online.get(0);
+		Player winner = HotPotato.alive.get(0);
 
 		Bukkit.broadcastMessage(HotPotato.pr + " §3" + winner.getDisplayName()
 				+ " §7hat das Spiel gewonnen.");
@@ -37,7 +35,7 @@ public class EndTimer {
 							if (i == 5) {
 
 								for (Player p : Bukkit.getOnlinePlayers()) {
-									p.chat("/lobby");
+									p.chat("/hub");
 								}
 
 							}

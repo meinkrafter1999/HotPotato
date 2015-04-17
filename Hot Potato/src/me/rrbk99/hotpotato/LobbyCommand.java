@@ -2,13 +2,11 @@
  * Copyright (c) 2015 Robin Roeder.
  * All rights reserved.
  *******************************************************************************/
-package me.rrbk99.hotpotato.cmd;
+package me.rrbk99.hotpotato;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
-
-import me.rrbk99.hotpotato.HotPotato;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
