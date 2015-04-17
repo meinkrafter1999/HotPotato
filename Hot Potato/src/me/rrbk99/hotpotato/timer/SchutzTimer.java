@@ -2,7 +2,11 @@
  * Copyright (c) 2015 Robin Roeder.
  * All rights reserved.
  *******************************************************************************/
-package me.rrbk99.hotpotato;
+package me.rrbk99.hotpotato.timer;
+
+import me.rrbk99.hotpotato.HotPotato;
+import me.rrbk99.hotpotato.Potato;
+import me.rrbk99.hotpotato.manager.GameStatus;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;

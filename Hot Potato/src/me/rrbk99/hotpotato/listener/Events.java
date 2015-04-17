@@ -2,7 +2,9 @@
  * Copyright (c) 2015 Robin Roeder.
  * All rights reserved.
  *******************************************************************************/
-package me.rrbk99.hotpotato;
+package me.rrbk99.hotpotato.listener;
+
+import me.rrbk99.hotpotato.HotPotato;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -17,7 +19,7 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
 import org.bukkit.event.player.PlayerDropItemEvent;
 
-public class BlockBreak implements Listener {
+public class Events implements Listener {
 
 	@EventHandler
 	public void onBlockBreak(BlockBreakEvent e) {

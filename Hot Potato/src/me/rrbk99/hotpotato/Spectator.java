@@ -3,6 +3,9 @@ package me.rrbk99.hotpotato;
 import java.util.ArrayList;
 import java.util.List;
 
+import me.rrbk99.hotpotato.manager.GameStatus;
+import me.rrbk99.hotpotato.manager.Manager;
+
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
 import org.bukkit.Location;

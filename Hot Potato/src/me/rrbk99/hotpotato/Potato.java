@@ -6,6 +6,10 @@ package me.rrbk99.hotpotato;
 
 import java.util.Random;
 
+import me.rrbk99.hotpotato.manager.GameStatus;
+import me.rrbk99.hotpotato.manager.Manager;
+import me.rrbk99.hotpotato.timer.EndTimer;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Color;
 import org.bukkit.Effect;

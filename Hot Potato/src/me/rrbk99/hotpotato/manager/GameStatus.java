@@ -2,7 +2,9 @@
  * Copyright (c) 2015 Robin Roeder.
  * All rights reserved.
  *******************************************************************************/
-package me.rrbk99.hotpotato;
+package me.rrbk99.hotpotato.manager;
+
+import me.rrbk99.hotpotato.HotPotato;
 
 
 public enum GameStatus {

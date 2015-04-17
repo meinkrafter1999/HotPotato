@@ -7,6 +7,12 @@ package me.rrbk99.hotpotato;
 import java.util.ArrayList;
 import java.util.List;
 
+import me.rrbk99.hotpotato.commands.LobbyCommand;
+import me.rrbk99.hotpotato.listener.Events;
+import me.rrbk99.hotpotato.listener.Log;
+import me.rrbk99.hotpotato.manager.GameStatus;
+import me.rrbk99.hotpotato.timer.LobbyTimer;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.World;
@@ -78,7 +84,7 @@ public class HotPotato extends JavaPlugin {
 		this.getCommand("hub").setExecutor(new LobbyCommand());
 		this.getCommand("leave").setExecutor(new LobbyCommand());
 
-		Bukkit.getPluginManager().registerEvents(new BlockBreak(), this);
+		Bukkit.getPluginManager().registerEvents(new Events(), this);
 		Bukkit.getPluginManager().registerEvents(new Log(), this);
 		Bukkit.getPluginManager().registerEvents(new BackToHub(), this);
 		Bukkit.getPluginManager().registerEvents(new Potato(), this);
